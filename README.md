@@ -5,7 +5,7 @@ This project uses a Convolutional Neural Network (CNN) to classify terrain types
 
 #### Table of Contents
 
-Project Description
+Project Descriptionhttps://github.com/Akasxh/Terrain-Recognition/blob/main/README.md#project-description
 
 Dataset
 
