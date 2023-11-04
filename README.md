@@ -1,9 +1,9 @@
 # Terrain-Recognition
 
-Overview
+### Overview
 This project uses a Convolutional Neural Network (CNN) to classify terrain types based on input images. The model achieves an accuracy of 74% on a test dataset, demonstrating its capability to recognize various terrains.
 
-Table of Contents
+#### Table of Contents
 
 Project Description
 
@@ -19,89 +19,93 @@ Dependencies
 
 Acknowledgments
 
-###Project Description
+### Project Description
+
 Terrain recognition is essential in various applications, such as autonomous vehicles, robotics, and environmental monitoring. In this project, we used a CNN to classify images into five terrain categories: Coast, Desert, Forest, Glacier, and Mountain. The model was trained on a labeled dataset and evaluated on a test dataset.
 
-Dataset
+### Dataset
+
 We used a custom dataset consisting of images of different terrains. The dataset was divided into a training set and a test set. The training set was used to train the model, while the test set was used to evaluate its performance.
 
-Dataset Statistics:
+#### Dataset Statistics:
 
-Total Images: 11000
+ Total Images: 11000
 
-Training Images: 10000
+ Training Images: 10000
 
-Test Images: 1000
+ Test Images: 1000
 
-Classes: 5 (Coast, Desert, Forest, Glacier, Mountain)
+ Classes: 5 (Coast, Desert, Forest, Glacier, Mountain)
 
-Model Architecture
+### Model Architecture
 
 The CNN model used for terrain recognition consists of the following layers:
 
-Convolutional Layer 1
+ Convolutional Layer 1
 
-Max-Pooling Layer 1
+ Max-Pooling Layer 1
 
-Convolutional Layer 2
+ Convolutional Layer 2
 
-Max-Pooling Layer 2
+ Max-Pooling Layer 2
 
-Flattening Layer
+ Flattening Layer
 
-Fully Connected Layer ('relu')
+ Fully Connected Layer ('relu')
 
-Output Layer ('softmax')
+ Output Layer ('softmax')
 
 The model architecture was chosen based on experimentation and fine-tuning. The model was trained using the training dataset and optimized for accuracy.
 
-Results
+#### Results
+
 The trained model achieved an accuracy of 74% on the test dataset, demonstrating its ability to recognize different terrains. Here are some sample predictions:
 
-Coast: 80% accuracy
+  Coast: 80% accuracy
 
-Desert: 70% accuracy
+  Desert: 70% accuracy
 
-Forest: 85% accuracy
+  Forest: 85% accuracy
 
-Glacier: 65% accuracy
+  Glacier: 65% accuracy
 
-Mountain: 78% accuracy
+  Mountain: 78% accuracy
 
 The model's performance can be further improved with additional data and fine-tuning.
 
-Usage
-To use the trained model for terrain recognition, follow these steps:
+#### Usage
 
-Install the required dependencies (see Dependencies).
+ To use the trained model for terrain recognition, follow these steps:
 
-Load the pre-trained model using a Python script.
+ Install the required dependencies (see Dependencies).
 
-Provide an image to the script, and it will predict the terrain type.
+ Load the pre-trained model using a Python script.
 
-For detailed usage instructions, refer to the project's source code and documentation.
+ Provide an image to the script, and it will predict the terrain type.
+
+ For detailed usage instructions, refer to the project's source code and documentation.
 
 It is recommended to do this in google collab as access to images,files and models are easier as such.
 
-Dependencies:
+#### Dependencies:
 
-Python 3.x
+ Python 3.x
 
-TensorFlow (deep learning framework)
+ TensorFlow (deep learning framework)
 
-Jupyter Notebook (for running and experimenting with the code) or use google collab
+ Jupyter Notebook (for running and experimenting with the code) or use google collab
 
-Numpy (for data manipulation)
+ Numpy (for data manipulation)
 
 You can install the required Python packages using pip:
 
 "pip install tensorflow numpy  jupyter"
 
-Acknowledgments
+### Acknowledgments
 
-This project was developed by Team LearnX as part of SIH: Deep learning for terrain recognition.
+This project was developed by Team "LearnX" as part of SIH: Deep learning for terrain recognition.
 
-TEAM: LearnX
+#### TEAM: LearnX
 
 TEAM LEAD: S AKASH
 
