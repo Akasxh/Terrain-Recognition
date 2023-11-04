@@ -5,19 +5,19 @@ This project uses a Convolutional Neural Network (CNN) to classify terrain types
 
 #### Table of Contents
 
-Project Descriptionhttps://github.com/Akasxh/Terrain-Recognition/blob/main/README.md#project-description
+-[Project Description](#project-description)
 
-Dataset
+-[Dataset](#dataset)
 
-Model Architecture
+-[Model Architecture](#model-architecture)
 
-Results
+-[Results](#results)
 
-Usage
+-[Usage](#usage)
 
-Dependencies
+-[Dependencies](#dependencies)
 
-Acknowledgments
+-[Acknowledgments](#acknowledgments)
 
 ### Project Description
 
@@ -87,7 +87,7 @@ The model's performance can be further improved with additional data and fine-tu
 
 It is recommended to do this in google collab as access to images,files and models are easier as such.
 
-#### Dependencies:
+#### Dependencies
 
  Python 3.x
 
