@@ -1,7 +1,7 @@
 # Terrain-Recognition
 
 ### Overview
-This project uses a Convolutional Neural Network (CNN) to classify terrain types based on input images. The model achieves an accuracy of 74% on a test dataset, demonstrating its capability to recognize various terrains.
+This project uses a Convolutional Neural Network (CNN) to classify terrain types based on input images. The model achieves an accuracy of up to 80% on a test dataset, demonstrating its capability to recognize various terrains.
 
 #### Drive for train, test data, and pre-trained model :
 https://drive.google.com/drive/folders/1hbL1m39TF8ABe0oCj5XYDbHXY-gPIjcQ?usp=sharing
