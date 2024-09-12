@@ -1,44 +1,16 @@
 # Terrain-Recognition
 
 ### Overview
-This project uses a Convolutional Neural Network (CNN) to classify terrain types based on input images. The model achieves an accuracy of up to 80% on a test dataset, demonstrating its capability to recognize various terrains.
+This project utilizes a Convolutional Neural Network (CNN) to classify terrain types from input images with high precision. The model, trained on 10,000 images across five terrain classes, achieves a validation accuracy of 84.62%, showcasing its strong ability to generalize and accurately distinguish between different terrains.
 
 #### Drive for train, test data, and pre-trained model :
 https://drive.google.com/drive/folders/1hbL1m39TF8ABe0oCj5XYDbHXY-gPIjcQ?usp=sharing
 
-#### Table of Contents
-
--[Project Description](#project-description)
-
--[Dataset](#dataset)
-
--[Model Architecture](#model-architecture)
-
--[Results](#results)
-
--[Usage](#usage)
-
--[Dependencies](#dependencies)
-
--[Acknowledgments](#acknowledgments)
-
-### Project Description
-
-Terrain recognition is essential in various applications, such as autonomous vehicles, robotics, and environmental monitoring. In this project, we used a CNN to classify images into five terrain categories: Coast, Desert, Forest, Glacier, and Mountain. The model was trained on a labeled dataset and evaluated on a test dataset.
-
 ### Dataset
 
-We used a custom dataset consisting of images of different terrains. The dataset was divided into a training set and a test set. The training set was used to train the model, while the test set was used to evaluate its performance.
+We curated a custom dataset by scraping over 10,000 images from the internet across five terrain categories—Coast, Desert, Forest, Glacier, and Mountain—using Python libraries like BeautifulSoup and Selenium. The dataset was meticulously organized into 10,000 training images and 500 test images to ensure diverse coverage for training and robust evaluation.
 
-#### Dataset Statistics:
 
- Total Images: 11000
-
- Training Images: 10000
-
- Test Images: 1000
-
- Classes: 5 (Coast, Desert, Forest, Glacier, Mountain)
 
 ### Model Architecture
 
