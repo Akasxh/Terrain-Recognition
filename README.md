@@ -1,11 +1,11 @@
 # Terrain-Recognition
 
-<p align="center">
-  <img src="image/modelV2_diagram.png" alt="Model Architecture" width="50%" />
-</p>
-
 ### Overview
 This project utilizes a Convolutional Neural Network (CNN) to classify terrain types from input images with high precision. The model, trained on 10,000 images across five terrain classes, achieves a validation accuracy of 84.62%, showcasing its strong ability to generalize and accurately distinguish between different terrains.
+
+<p align="center">
+  <img src="image/modelV2_diagram.png" alt="Model Architecture" width="80%" />
+</p>
 
 #### Drive for train, test data, and pre-trained model :
 https://drive.google.com/drive/folders/1hbL1m39TF8ABe0oCj5XYDbHXY-gPIjcQ?usp=sharing
