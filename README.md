@@ -10,7 +10,7 @@ This project utilizes a Convolutional Neural Network (CNN) to classify terrain t
 #### Drive for train, test data, and pre-trained model :
 https://drive.google.com/drive/folders/1hbL1m39TF8ABe0oCj5XYDbHXY-gPIjcQ?usp=sharing
 
-### Dataset
+## Dataset
 
 We curated a custom dataset by scraping over 10,000 images from the internet across five terrain categories—Coast, Desert, Forest, Glacier, and Mountain—using Python libraries like BeautifulSoup and Selenium. The dataset was meticulously organized into 10,000 training images and 500 test images to ensure diverse coverage for training and robust evaluation.
 
@@ -18,9 +18,24 @@ We curated a custom dataset by scraping over 10,000 images from the internet acr
   <img src="image/sample_data.png" alt="Sample Data Image" width="50%" />
 </p>
 
-<p align="center">
-  <img src="image/V2_Architecture.png" alt="V2 Architecture" width="50%" />
-</p>
+## Model Architecture
+
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <h3>Total Parameters</h3>
+      <ul>
+        <li>6,136,261 (23.41 MB)</li>
+        <li>Trainable params: 6,131,205 (23.39 MB)</li>
+        <li>Non-trainable params: 5,056 (19.75 KB)</li>
+      </ul>
+      <p><strong>Note:</strong> The <code>None</code> in the output shape indicates the batch size is flexible and can vary during training or inference.</p>
+    </td>
+    <td style="text-align: right;">
+      <img src="image/V2_Architecture.png" alt="Model Architecture" style="width: 100%;">
+    </td>
+  </tr>
+</table>
 
 
 #### Results
