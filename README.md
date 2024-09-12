@@ -56,34 +56,19 @@ Through multiple iterations and architectural experimentation, we successfully o
 
 This reduction in size makes the model highly suitable for real-world mobile applications without compromising on accuracy, demonstrating the power of a well-optimized architectural design.
 
-#### Dependencies
-
- Python 3.x
-
- TensorFlow (deep learning framework)
-
- Jupyter Notebook (for running and experimenting with the code) or use google collab
-
- Numpy (for data manipulation)
-
-You can install the required Python packages using pip:
-
-"pip install tensorflow numpy  jupyter"
-
 ### Acknowledgments
 
 This project was developed by Team "LearnX" as part of SIH: Deep learning for terrain recognition.
 
-#### TEAM: LearnX
 
-TEAM LEAD: S AKASH
+#### LearnX LEAD: S AKASH
 
-MEMBER 1:Vihaan Agrawal
+- Vihaan Agrawal
 
-MEMBER 2:Ruchi Chand Thakur
+- Ruchi Chand Thakur
 
-MEMBER 3:Manas Gupta
+- Manas Gupta
 
-MEMBER 4:Tanmay Singh
+- Tanmay Singh
 
-MEMBER 5:Harshith Patnaik
+- Harshith Patnaik
