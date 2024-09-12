@@ -46,19 +46,11 @@ Our model achieved an impressive overall accuracy of 84.62% on the test dataset.
   <img src="image/Analysis_chart.png" alt="Model Architecture" width="80%" />
 </p>
 
-#### Usage
+## Optimization
 
- To use the trained model for terrain recognition, follow these steps:
-
- Install the required dependencies (see Dependencies).
-
- Load the pre-trained model using a Python script.
-
- Provide an image to the script, and it will predict the terrain type.
-
- For detailed usage instructions, refer to the project's source code and documentation.
-
-It is recommended to do this in google collab as access to images,files and models are easier as such.
+<p align="center">
+  <img src="image/Optimisation.png" alt="Model Architecture" width="90%" />
+</p>
 
 #### Dependencies
 
