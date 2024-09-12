@@ -19,7 +19,7 @@ We curated a custom dataset by scraping over 10,000 images from the internet acr
 </p>
 
 <p align="center">
-  <img src="image/V2_Architecture.pngg" alt="V2 Architecture" width="50%" />
+  <img src="image/V2_Architecture.png" alt="V2 Architecture" width="50%" />
 </p>
 
 
