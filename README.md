@@ -48,9 +48,13 @@ Our model achieved an impressive overall accuracy of 84.62% on the test dataset.
 
 ## Optimization
 
+Through multiple iterations and architectural experimentation, we successfully optimized our model to be significantly more lightweight, reducing its size from **`150 MB`** to just **`23 MB`**. This optimization was crucial for deploying the model in mobile and edge environments where resource efficiency is key.
+
 <p align="center">
   <img src="image/Optimisation.png" alt="Model Architecture" width="90%" />
 </p>
+
+This reduction in size makes the model highly suitable for real-world mobile applications without compromising on accuracy, demonstrating the power of a well-optimized architectural design.
 
 #### Dependencies
 
