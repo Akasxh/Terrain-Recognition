@@ -38,21 +38,13 @@ We curated a custom dataset by scraping over 10,000 images from the internet acr
 </table>
 
 
-#### Results
+## Results
 
-The trained model achieved an accuracy of 74% on the test dataset, demonstrating its ability to recognize different terrains. Here are some sample predictions:
+Our model achieved an impressive overall accuracy of 84.62% on the test dataset. This success reflects the effectiveness of our carefully designed architecture, which was developed through extensive experimentation and fine-tuning. The high performance underscores the model's strong ability to recognize and classify various terrains.
 
-  Coast: 80% accuracy
-
-  Desert: 70% accuracy
-
-  Forest: 85% accuracy
-
-  Glacier: 65% accuracy
-
-  Mountain: 78% accuracy
-
-The model's performance can be further improved with additional data and fine-tuning.
+<p align="center">
+  <img src="image/Analysis_chart.png" alt="Model Architecture" width="80%" />
+</p>
 
 #### Usage
 
