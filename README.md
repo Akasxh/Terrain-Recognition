@@ -56,12 +56,12 @@ Through multiple iterations and architectural experimentation, we successfully o
 
 This reduction in size makes the model highly suitable for real-world mobile applications without compromising on accuracy, demonstrating the power of a well-optimized architectural design.
 
-### Acknowledgments
+## Acknowledgments
 
 This project was developed by Team "LearnX" as part of SIH: Deep learning for terrain recognition.
 
 
-#### LearnX LEAD: S AKASH
+### LearnX LEAD : S AKASH
 
 - Vihaan Agrawal
 
