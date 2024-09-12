@@ -63,12 +63,21 @@ This project was developed by Team "LearnX" as part of SIH: Deep learning for te
 
 ### LearnX LEAD : S AKASH
 
-- Vihaan Agrawal
+<details>
+  <summary>Click to see the list of contributors</summary>
+  
+  - Vihaan Agrawal
 
-- Ruchi Chand Thakur
+  - Ruchi Chand Thakur
 
-- Manas Gupta
+  - Manas Gupta
 
-- Tanmay Singh
+  - Tanmay Singh
 
-- Harshith Patnaik
+  - Harshith Patnaik
+
+</details>
+
+  
+  </tr>
+</table>
