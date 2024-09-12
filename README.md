@@ -11,7 +11,7 @@ https://drive.google.com/drive/folders/1hbL1m39TF8ABe0oCj5XYDbHXY-gPIjcQ?usp=sha
 We curated a custom dataset by scraping over 10,000 images from the internet across five terrain categories—Coast, Desert, Forest, Glacier, and Mountain—using Python libraries like BeautifulSoup and Selenium. The dataset was meticulously organized into 10,000 training images and 500 test images to ensure diverse coverage for training and robust evaluation.
 
 <p align="center">
-  <img src="image/sample_data.png" alt="Sample Data Image" />
+  <img src="image/sample_data.png" alt="Sample Data Image" width="50%" />
 </p>
 
 
