@@ -18,26 +18,10 @@ We curated a custom dataset by scraping over 10,000 images from the internet acr
   <img src="image/sample_data.png" alt="Sample Data Image" width="50%" />
 </p>
 
+<p align="center">
+  <img src="image/V2_Architecture.pngg" alt="V2 Architecture" width="50%" />
+</p>
 
-### Model Architecture
-
-The CNN model used for terrain recognition consists of the following layers:
-
- Convolutional Layer 1
-
- Max-Pooling Layer 1
-
- Convolutional Layer 2
-
- Max-Pooling Layer 2
-
- Flattening Layer
-
- Fully Connected Layer ('relu')
-
- Output Layer ('softmax')
-
-The model architecture was chosen based on experimentation and fine-tuning. The model was trained using the training dataset and optimized for accuracy.
 
 #### Results
 
