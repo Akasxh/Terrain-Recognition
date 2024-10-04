@@ -3,6 +3,8 @@
 ### Overview
 This project utilizes a Convolutional Neural Network (CNN) to classify terrain types from input images with high precision. The model, trained on 10,000 images across five terrain classes, achieves a validation accuracy of 84.62%, showcasing its strong ability to generalize and accurately distinguish between different terrains.
 
+There is additional a model that achieves **91.93% validation accuracy** and **92.40% test accuracy** with a size of approximately **15.6 MB**, for more details see the [EfficientNet-B0 Model README](path/to/your/efficientnet_readme.md).
+
 <p align="center">
   <img src="image/modelV2_diagram.png" alt="Model Architecture" width="90%" />
 </p>
