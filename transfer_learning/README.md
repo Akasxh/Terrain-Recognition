@@ -62,15 +62,15 @@ Each MBConv block includes Squeeze-and-Excitation optimization.
 
 ## Model Specifications (EfficientNet-B0)
 
-| Metric | Value |
-|--------|-------|
-| Parameters | ~4 million |
-| Model Size | ~15.6 MB |
-| Memory Usage | ~34.7 MB |
+| Metric              | Value              |
+| ------------------- | ------------------ |
+| Parameters          | ~4 million         |
+| Model Size          | ~15.6 MB           |
+| Memory Usage        | ~34.7 MB           |
 | CPU Inference Speed | ~30-60ms per image |
 | GPU Inference Speed | ~10-15ms per image |
 
-*Note: Actual speed may vary based on hardware and image size.*
+_Note: Actual speed may vary based on hardware and image size._
 
 ## Implementation Details
 
@@ -122,10 +122,4 @@ To check inference rates of the model:
 
 - Run `cal_inference.ipynb`
 
-## Contributing
-
-Contributions to improve the model or extend its capabilities are welcome. Please submit a pull request or open an issue to discuss proposed changes.
-
-## License
-
-[Insert appropriate license information here]
+For ways to improve model further please refer [Improvement.md](Improvement.md)

@@ -1,9 +1,10 @@
 # Terrain-Recognition
 
 ### Overview
+
 This project utilizes a Convolutional Neural Network (CNN) to classify terrain types from input images with high precision. The model, trained on 10,000 images across five terrain classes, achieves a validation accuracy of 84.62%, showcasing its strong ability to generalize and accurately distinguish between different terrains.
 
-There is additional a model that achieves **91.93% validation accuracy** and **92.40% test accuracy** with a size of approximately **15.6 MB**, for more details see the [EfficientNet-B0 Model README](path/to/your/efficientnet_readme.md).
+There is additional a model that achieves **91.93% validation accuracy** and **92.40% test accuracy** with a size of approximately **15.6 MB**, for more details see the [EfficientNet-B0 Model README](transfer_learning/README.md).
 
 <p align="center">
   <img src="image/modelV2_diagram.png" alt="Model Architecture" width="90%" />
@@ -36,7 +37,6 @@ We curated a custom dataset by scraping over 10,000 images from the internet acr
   </tr>
 </table>
 
-
 ## Results
 
 Our model achieved an impressive overall accuracy of 84.62% on the test dataset. This success reflects the effectiveness of our carefully designed architecture, which was developed through extensive experimentation and fine-tuning. The high performance underscores the model's strong ability to recognize and classify various terrains.
@@ -59,7 +59,6 @@ This reduction in size makes the model highly suitable for real-world mobile app
 
 This project was developed by Team "LearnX" as part of SIH: Deep learning for terrain recognition.
 
-
 ### LearnX LEAD : S AKASH
 
 <details>
@@ -67,16 +66,15 @@ This project was developed by Team "LearnX" as part of SIH: Deep learning for te
   
   - Vihaan Agrawal
 
-  - Ruchi Chand Thakur
+- Ruchi Chand Thakur
 
-  - Manas Gupta
+- Manas Gupta
 
-  - Tanmay Singh
+- Tanmay Singh
 
-  - Harshith Patnaik
+- Harshith Patnaik
 
 </details>
 
-  
   </tr>
 </table>
