@@ -1,5 +1,3 @@
----
-
 # Terrain Recognition using Transfer Learning
 
 This project is focused on classifying images into five terrain classes: **Coast**, **Forest**, **Glacier**, **Mountain**, and **Desert**. We used transfer learning with **ConvNeXT Tiny** and **MobileNetV2** architectures to leverage pre-trained models for effective terrain classification. This README provides an overview of the models, transformation parameters, accuracy results, and detailed model parameters.
@@ -104,26 +102,28 @@ Here is a comparison of the parameters and model sizes:
 - **Loss**: *.2168*
 
 **Confusion Matrix**  
-![ConvNeXT Confusion Matrix](![image](https://github.com/user-attachments/assets/31d8555d-ed7a-4984-828a-f3d6c32ff34c)
-)
+![Confusion Matrix for ConvNeXT](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/confconnet.jpg?raw=true)
 
 **Model Architecture**  
-![ConvNeXT Architecture](![image](https://github.com/user-attachments/assets/d5ebecf0-a4e9-47b0-9ec7-6e023107e5eb)
-)
+![ConvNeXT Architecture](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/convnextarch.jpg?raw=true)
+
+**Model Accuracy Curve** 
+![ConvNext Accuracy](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/convnextaccu.jpg?raw=true)
 
 ---
 
 ### MobileNetV2
-- **Accuracy**: *B%*
-- **Loss**: *C*
+- **Accuracy**: *91.33%*
+- **Loss**: *.2798*
 
 **Confusion Matrix**  
-![MobileNetV2 Confusion Matrix](![image](https://github.com/user-attachments/assets/dc8170e4-07b2-43a2-bbe2-c54867c49865)
-)
+![MobileNetV2 Confusion Matrix](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/confnet.jpg?raw=true)
 
 **Model Architecture**  
-![MobileNetV2 Architecture](![image](https://github.com/user-attachments/assets/4e31ab1b-dd7d-483c-aa6a-8775b14b432e)
-)
+![MobileNetV2 Architecture](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/mobilenetarch.png?raw=true)
+
+**Model Accuracy Curve** 
+![MobileNetV2 Accuracy](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/mobilenetacc.jpg?raw=true)
 
 ---
 
@@ -142,6 +142,7 @@ This project demonstrates the effective use of transfer learning for terrain cla
    ```
 
 2. Run the notebooks
+3. Enjoy the predictions
 
 Feel free to explore, contribute, and leave feedback!
 
