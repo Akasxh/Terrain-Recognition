@@ -102,13 +102,13 @@ Here is a comparison of the parameters and model sizes:
 - **Loss**: *.2168*
 
 **Confusion Matrix**  
-![Confusion Matrix for ConvNeXT](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/confconnet.jpg?raw=true)
+![Confusion Matrix for ConvNeXT](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/images/confconnet.jpg?raw=true)
 
 **Model Architecture**  
-![ConvNeXT Architecture](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/convnextarch.jpg?raw=true)
+![ConvNeXT Architecture](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/images/convnextarch.jpg?raw=true)
 
 **Model Accuracy Curve** 
-![ConvNext Accuracy](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/convnextaccu.jpg?raw=true)
+![ConvNext Accuracy](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/images/convnextaccu.jpg?raw=true)
 
 ---
 
@@ -117,13 +117,13 @@ Here is a comparison of the parameters and model sizes:
 - **Loss**: *.2798*
 
 **Confusion Matrix**  
-![MobileNetV2 Confusion Matrix](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/confnet.jpg?raw=true)
+![MobileNetV2 Confusion Matrix](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/images/confnet.jpg?raw=true)
 
 **Model Architecture**  
-![MobileNetV2 Architecture](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/mobilenetarch.png?raw=true)
+![MobileNetV2 Architecture](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/images/mobilenetarch.png?raw=true)
 
 **Model Accuracy Curve** 
-![MobileNetV2 Accuracy](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/mobilenetacc.jpg?raw=true)
+![MobileNetV2 Accuracy](https://github.com/Shreyansh-G/Terrain-Recognition/blob/main/transfer_learning/images/mobilenetacc.jpg?raw=true)
 
 ---
 
