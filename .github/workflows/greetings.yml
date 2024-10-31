@@ -1,0 +1,25 @@
+on:
+  push:
+    branches: [main]
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commitment Issues Bot
+        run: echo "GITHUB_ACTOR=YourBotName" >> $GITHUB_ENV
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            🎉 Thank you for raising an issue! We’ll review it shortly and assign it to you.
+            Access our custom dataset of ~10k images across five classes [here](https://drive.google.com/drive/folders/1hbL1m39TF8ABe0oCj5XYDbHXY-gPIjcQ?usp=drive_link) for your work.
+            Please note, only technical contributions like model improvements and documentation updates will be reviewed; design changes to the README are excluded.
+
+            Feel free to ⭐ the repo to stay updated!
+          pr-message: |
+            🚀 Thank you for your pull request! A maintainer will review it soon and provide feedback if needed. We appreciate your contribution to the community!
