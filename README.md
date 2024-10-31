@@ -10,6 +10,14 @@ There is additional a model that achieves **91.93% validation accuracy** and **9
   <img src="image/modelV2_diagram.png" alt="Model Architecture" width="90%" />
 </p>
 
+## Table of Contents
+- [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
+- [Results](#results)
+- [Optimization](#optimization)
+- [Acknowledgments](#acknowledgments)
+
+
 ## Dataset
 
 We curated a custom dataset by scraping over 10,000 images from the internet across five terrain categories—Coast, Desert, Forest, Glacier, and Mountain—using Python libraries like BeautifulSoup and Selenium. The dataset was meticulously organized into 10,000 training images and 500 test images to ensure diverse coverage for training and robust evaluation.
