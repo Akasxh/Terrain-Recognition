@@ -1,80 +1,125 @@
-# Terrain-Recognition
+# Terrain Recognition
 
-### Overview
-
-This project utilizes a Convolutional Neural Network (CNN) to classify terrain types from input images with high precision. The model, trained on 10,000 images across five terrain classes, achieves a validation accuracy of 84.62%, showcasing its strong ability to generalize and accurately distinguish between different terrains.
-
-There is additional a model that achieves **91.93% validation accuracy** and **92.40% test accuracy** with a size of approximately **15.6 MB**, for more details see the [EfficientNet-B0 Model README](transfer_learning/ReadMe.md).
+CNN-based terrain classification from satellite and ground-level imagery, achieving 92.40% test accuracy with EfficientNet-B0 transfer learning across five terrain classes.
 
 <p align="center">
   <img src="image/modelV2_diagram.png" alt="Model Architecture" width="90%" />
 </p>
 
-## Dataset
+## Overview
 
-We curated a custom dataset by scraping over 10,000 images from the internet across five terrain categories—Coast, Desert, Forest, Glacier, and Mountain—using Python libraries like BeautifulSoup and Selenium. The dataset was meticulously organized into 10,000 training images and 500 test images to ensure diverse coverage for training and robust evaluation.
+Developed for SIH (Smart India Hackathon) under "Deep Learning for Terrain Recognition," this project iterates through seven custom CNN architectures and multiple transfer learning approaches. The model was progressively optimized from 150 MB down to 15.6 MB while improving accuracy, making it deployable on mobile and edge devices.
 
-<p align="center">
-  <img src="image/data_sample.png" alt="Sample Data Image" width="70%" />
-</p>
+```mermaid
+graph LR
+    A[Input Image] --> B[Data Pipeline]
+    B --> B1[Web Scraping]
+    B --> B2[10K Train / 500 Test]
 
-## Model Architecture
+    B2 --> C{Architecture}
+    C --> D[Custom CNN V1-V7]
+    C --> E[Transfer Learning]
 
-<table>
-  <tr>
-    <td style="vertical-align: top;">
-      <h3>Total Parameters</h3>
-      <ul>
-        <li>6,136,261 (23.41 MB)</li>
-        <li>Trainable params: 6,131,205 (23.39 MB)</li>
-        <li>Non-trainable params: 5,056 (19.75 KB)</li>
-      </ul>
-      <p><strong>Note:</strong> The <code>None</code> in the output shape indicates the batch size is flexible and can vary during training or inference.</p>
-    </td>
-    <td style="text-align: right;">
-      <img src="image/V2_Architecture.png" alt="Model Architecture" style="width: 100%;">
-    </td>
-  </tr>
-</table>
+    D --> D1[Xception: 84.62%]
+    E --> E1[EfficientNet-B0: 92.40%]
+    E --> E2[ConvNeXt]
+    E --> E3[MobileNet]
+
+    D1 & E1 --> F[Prediction]
+    F --> G1[Coast]
+    F --> G2[Desert]
+    F --> G3[Forest]
+    F --> G4[Glacier]
+    F --> G5[Mountain]
+```
 
 ## Results
 
-Our model achieved an impressive overall accuracy of 84.62% on the test dataset. This success reflects the effectiveness of our carefully designed architecture, which was developed through extensive experimentation and fine-tuning. The high performance underscores the model's strong ability to recognize and classify various terrains.
+| Model | Test Accuracy | Model Size |
+|:--|:--:|:--:|
+| **EfficientNet-B0** | **92.40%** | **15.6 MB** |
+| Xception | 84.62% | 23 MB |
+| Custom CNN V3-V7 | 70-80% | 150 MB |
 
 <p align="center">
-  <img src="image/Analysis_chart.png" alt="Model Architecture" width="80%" />
+  <img src="image/Optimisation.png" alt="Optimization Journey" width="90%" />
 </p>
 
-## Optimization
+## Dataset
 
-Through multiple iterations and architectural experimentation, we successfully optimized our model to be significantly more lightweight, reducing its size from **`150 MB`** to just **`23 MB`**. This optimization was crucial for deploying the model in mobile and edge environments where resource efficiency is key.
+- **Source**: Custom-scraped via BeautifulSoup + Selenium
+- **Classes**: Coast, Desert, Forest, Glacier, Mountain
+- **Split**: 10,000 training / 500 test images
 
 <p align="center">
-  <img src="image/Optimisation.png" alt="Model Architecture" width="90%" />
+  <img src="image/data_sample.png" alt="Sample Data" width="70%" />
 </p>
 
-This reduction in size makes the model highly suitable for real-world mobile applications without compromising on accuracy, demonstrating the power of a well-optimized architectural design.
+## Quick Start
 
-## Acknowledgments
+```bash
+git clone https://github.com/Akasxh/Terrain-Recognition.git
+cd Terrain-Recognition
+pip install -r requirements.txt
 
-This project was developed by Team "LearnX" as part of SIH: Deep learning for terrain recognition.
+# Best model (EfficientNet-B0)
+jupyter notebook transfer_learning/best_recognz_sg.ipynb
 
-### LearnX LEAD : S AKASH
+# Xception model
+jupyter notebook "latest-model /Xception/Xception_V1.ipynb"
+
+# Inference
+jupyter notebook call_model.ipynb
+```
+
+## Project Structure
+
+```
+Terrain-Recognition/
+├── Data Main/Training Data/
+│   ├── Coast/
+│   ├── Desert/
+│   ├── Forest/
+│   ├── Glacier/
+│   └── Mountain/
+├── latest-model /Xception/
+│   ├── Xception_V1.ipynb
+│   ├── model_xception.h5
+│   └── confusion_matrix.png
+├── transfer_learning/
+│   ├── best_recognz_sg.ipynb               # EfficientNet-B0
+│   ├── terrain_recognization_sg.ipynb
+│   └── transfer_learning_models/
+├── Past_Architectures/                      # V1, V2
+├── Terrain_V3.ipynb through Terrain_V7.ipynb  # Optimizer experiments
+├── call_model.ipynb                         # Inference
+├── image/                                   # Diagrams & charts
+├── requirements.txt
+└── README.md
+```
+
+## Tech Stack
+
+- **Frameworks**: TensorFlow/Keras, PyTorch
+- **Architectures**: Custom CNN, Xception, EfficientNet-B0, ConvNeXt, MobileNet
+- **Data Collection**: BeautifulSoup, Selenium
+- **Visualization**: matplotlib, seaborn
+
+## Team -- LearnX
+
+**Lead**: S Akash
 
 <details>
-  <summary>Click to see the list of contributors</summary>
-  
-  - Vihaan Agrawal
+<summary>Contributors</summary>
 
+- Vihaan Agrawal
 - Ruchi Chand Thakur
-
 - Manas Gupta
-
 - Tanmay Singh
-
 - Harshith Patnaik
 
 </details>
 
-  </tr>
-</table>
+## License
+
+Licensed under GPL-3.0. See [LICENSE](LICENSE) for details.
